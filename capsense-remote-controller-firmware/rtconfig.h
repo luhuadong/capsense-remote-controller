@@ -94,6 +94,7 @@
 #define RT_SERIAL_USING_DMA
 #define RT_SERIAL_RB_BUFSZ 64
 #define RT_USING_PIN
+#define RT_USING_PWM
 #define RT_USING_WIFI
 #define RT_WLAN_DEVICE_STA_NAME "wlan0"
 #define RT_WLAN_DEVICE_AP_NAME "wlan1"
@@ -391,10 +392,16 @@
 #define BSP_USING_GPIO
 #define BSP_USING_UART
 #define BSP_USING_UART6
+#define BSP_USING_PWM
+#define BSP_USING_PWM0
+#define BSP_USING_PWM0_CH0
+#define BSP_USING_PWM0_PORT0
 /* end of On-chip Peripheral Drivers */
 
 /* Board extended module Drivers */
 
+#define BSP_USING_SLIDER
+#define BSP_USING_SLIDER_SAMPLE
 #define BSP_USING_CYW43012_WIFI
 /* end of Board extended module Drivers */
 /* end of Hardware Drivers Config */
